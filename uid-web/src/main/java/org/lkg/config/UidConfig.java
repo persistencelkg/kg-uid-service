@@ -11,4 +11,9 @@ import org.springframework.context.annotation.ImportResource;
 @Configuration
 @ImportResource(locations = {"classpath:uid/default-uid-spring.xml"})
 public class UidConfig {
+
+    public static void main(String[] args) {
+        long num = 1L << 28;
+        System.out.println(num / 1000.0/ 86400/365);
+    }
 }

@@ -10,10 +10,14 @@
         <property name="workerIdAssigner" ref="disposableWorkerIdAssigner"/>
 
         <!-- Specified bits & epoch as your demand. No specified the default value will be used -->
-        <property name="timeBits" value="37"/>
-        <property name="workerBits" value="12"/>
+        <!--支持69年-->
+        <property name="timeBits" value="41"/>
+        <!--支持256个节点-->
+        <property name="workerBits" value="8"/>
+        <!--支持16535并发-->
         <property name="seqBits" value="14"/>
-        <property name="epochStr" value="2025-01-01"/>
+        <!--相对于时间基数的增量值-->
+        <property name="epochStr" value="2050-01-01"/>
     </bean>
 
     <!-- Import mybatis config -->
