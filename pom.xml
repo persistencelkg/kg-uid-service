@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
     <groupId>org.lkg</groupId>
-    <artifactId>uid-service</artifactId>
+    <artifactId>kg-uid-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>uid-service</name>
+    <name>kg-uid-service</name>
     <description>uid service</description>
 
     <modules>
